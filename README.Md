@@ -1,11 +1,14 @@
-SUMMARY:
-Linear Search and Binary Search are two commonly used searching algorithms for finding an element in a list or array.
-Linear Search checks each element one by one from the beginning until the required element is found or the list ends.
-It can be used on both sorted and unsorted data. Its best-case time complexity is O(1), while its average-case and worst-case time complexities are O(n).
-Binary Search is a more efficient searching algorithm that works only on a sorted array.
-It compares the search element with the middle element and repeatedly divides the search space into half. 
-Its best-case time complexity is O(1), while its average-case and worst-case time complexities are O(log n).
+Summary:
+Max Heap Sort is an efficient sorting algorithm that uses a Max Heap data structure to arrange elements in ascending order.
+In this method, the largest element is always kept at the root of the heap.
+First, the given array is converted into a Max Heap. Then, the largest element is repeatedly removed from the heap and placed at the end of the array.
+This process continues until all the elements are sorted.
+One of the main advantages of Heap Sort is its consistent performance.
+Its best-case, average-case, and worst-case time complexity is O(n log n).
+The input operation takes O(n) time, while the recursive implementation used for heapifying requires O(log n) auxiliary space.
 
-CONCLUSION:
-From the comparison, Binary Search is generally faster than Linear Search for large datasets because it reduces the search space by half in every step.
-However, Binary Search requires the data to be sorted, whereas Linear Search can work directly on unsorted data.
+Conclusion:
+In conclusion, Max Heap Sort provides a systematic and efficient way to sort a collection of elements. By using the Max Heap property, it can repeatedly identify the largest element and move it to its correct position.
+The algorithm performs consistently with a time complexity of O(n log n) in all three cases: best, average, and worst case.
+Through implementing Max Heap Sort in Python, we can understand how heap structures work and how they can be used to improve the efficiency of sorting.
+The algorithm is therefore a useful and practical sorting technique for handling large sets of data while maintaining predictable performance.
