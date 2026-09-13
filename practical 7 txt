@@ -1,0 +1,11 @@
+summary:
+The Making Change Problem using Dynamic Programming is used to find the minimum number of coins needed to make a given amount. 
+The algorithm stores previously calculated results in a DP array, which avoids repeated calculations. 
+For example, with coins 1, 2, and 5, the amount 11 can be made using 5 + 5 + 1, requiring only 3 coins.
+The program also measures the actual execution time using time.perf_counter().
+
+Conclusion:
+The Dynamic Programming approach provides an efficient solution to the Making Change Problem.
+It finds the minimum number of coins while avoiding unnecessary repeated calculations.
+The time complexity is O(n × amount) and the space complexity is O(amount). 
+The measured execution time depends on the input size and the computer on which the program is executed.
