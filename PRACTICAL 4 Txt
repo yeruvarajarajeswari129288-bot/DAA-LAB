@@ -1,0 +1,13 @@
+summary:
+The factorial of a number was implemented using two different methods:
+iterative and recursive:
+In the iterative method, a for loop is used to multiply numbers from 1 to n.
+In the recursive method, the function repeatedly calls itself until it reaches the base condition.
+For the given input 5, both methods produce the result 120.
+The time complexity of both methods is O(n), while the iterative method requires less extra memory.
+
+Conclusion
+
+The implementation shows that both iterative and recursive methods can be used to calculate the factorial of a number effectively.
+Although both have O(n) time complexity, the iterative method is more memory-efficient with O(1) space complexity, whereas the recursive method uses O(n) space because of recursive function calls.
+Therefore, the iterative method is generally preferred when memory efficiency is important.
