@@ -1,0 +1,10 @@
+Summary
+The 0/1 Knapsack problem using Dynamic Programming finds the maximum value that can be placed in a knapsack without exceeding its capacity.
+Each item can either be selected once or not selected.
+A DP table is used to store the best possible value for different capacities and numbers of items.
+The algorithm avoids repeated calculations and efficiently finds the optimal solution.
+
+Conclusion
+The Dynamic Programming approach provides an efficient way to solve the 0/1 Knapsack problem. 
+For n items and knapsack capacity W, its time complexity is O(n × W) and space complexity is O(n × W).
+It guarantees the maximum possible value while keeping the total weight within the given capacity.
