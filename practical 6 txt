@@ -1,0 +1,8 @@
+Summary:
+The Chain Matrix Multiplication problem was implemented using Dynamic Programming in Python.
+The algorithm determines the most efficient order for multiplying a sequence of matrices by dividing the problem into smaller subproblems and storing their results in a DP table.
+This avoids repeated calculations and finds the minimum number of scalar multiplications required.
+Conclusion:
+The Dynamic Programming approach provides an efficient solution to the Chain Matrix Multiplication problem.
+The implementation successfully calculates the minimum multiplication cost for a given sequence of matrices.
+The algorithm has a time complexity of O(n³) and a space complexity of O(n²), making it significantly more efficient than checking every possible multiplication order.
