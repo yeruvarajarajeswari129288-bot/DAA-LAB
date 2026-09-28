@@ -1,0 +1,7 @@
+Summary:
+Prim’s algorithm was implemented in Python to find the Minimum Spanning Tree (MST) of a connected, weighted, undirected graph.
+The algorithm begins with a selected vertex and repeatedly chooses the smallest-weight edge that connects a selected vertex to an unselected vertex. 
+The process continues until all vertices are included in the spanning tree.
+Conclusion:
+The implementation successfully demonstrates how Prim’s algorithm can be used to construct a Minimum Spanning Tree and calculate its total cost.
+It provides an effective method for connecting all vertices of a graph while selecting the required edges with minimum weights.
