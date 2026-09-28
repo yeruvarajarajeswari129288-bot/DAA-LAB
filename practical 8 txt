@@ -1,0 +1,12 @@
+Summary:
+The implementation of Graph,
+DFS (Depth First Search), 
+BFS (Breadth First Search)
+It was successfully performed using Python.
+A graph was represented using an adjacency list, which efficiently stores the connections between vertices.
+DFS explores the graph deeply by using recursion, while BFS explores vertices level by level using a queue.
+Both traversal techniques visit vertices and edges systematically and have a time complexity of O(V + E).
+Conclusion:
+Graph traversal is an important concept in data structures and algorithms.
+DFS is useful when exploring paths deeply, whereas BFS is useful for level-by-level exploration and finding the shortest path in an unweighted graph.
+Through this implementation, the working principles of graph representation, DFS, and BFS were understood and demonstrated successfully in Python.
