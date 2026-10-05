@@ -1,0 +1,7 @@
+Summary:
+Kruskal’s algorithm finds the Minimum Spanning Tree (MST) of a weighted, connected graph.
+It first sorts all edges in increasing order of weight and then selects the smallest edge that does not form a cycle. 
+The Union-Find technique is used to efficiently detect cycles.
+Conclusion:
+Kruskal’s algorithm is an efficient greedy algorithm for finding a Minimum Spanning Tree.
+It is especially useful for graphs with relatively fewer edges and has a time complexity of O(E log E), where E is the number of edges.
